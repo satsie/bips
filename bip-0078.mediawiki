@@ -187,10 +187,10 @@ The well-known error codes are:
 |The receiver rejected the original PSBT.
 |}
 
-The receiver is allowed to return implementation specific errors which may assist the sender to diagnose any issue.
+The receiver is allowed to return implementation-specific errors which may assist the sender to diagnose any issue.
 
 However, it is important that error codes are not well-known and that the messages do not appear on the sender's software user interface.
-Such error codes or messages could be used maliciously to phish a non technical user.
+Such error codes or messages could be used maliciously to phish a non-technical user.
 Instead those errors or messages can only appear in debug logs.
 
 It is advised to hard code the description of the well known error codes into the sender's software.
